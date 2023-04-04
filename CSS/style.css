@@ -1,0 +1,105 @@
+
+/* Resetear los valores predeterminados de los elementos HTML */
+* {
+    margin: 0;
+    padding: 0; /*espacio de relleno*/
+    box-sizing: border-box; /*, todos los elementos de todas las páginas del sitio tendrán el mismo comportamiento en cuanto al cálculo de sus dimensiones*/
+  }
+  
+ 
+/* Estilos generales */
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(111, 218, 218);
+  }
+  
+  /* Estilos para la barra de navegación */
+  
+  .navbar {
+    border-bottom: 1px solid #f3b3d3;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .navbar-nav .active .nav-link {
+    color: #375474;
+  }
+  
+  /* Estilos para el contenido de la página */
+
+  
+  .h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+
+
+  .nosotros {
+    width: auto;
+    height: auto;
+  }
+  
+  .carousel-inner {
+    width: 100%;    /* ajusta ancho */  
+    height: 700px; /* ajusta la altura  */
+    object-fit: cover; /* la imagen cubra completamente el área del contenedor*/
+  }
+
+  .correo {
+
+    margin-left: 100px;
+  
+
+  }
+
+  .horarios {
+    width: 100vw;
+  margin: 20px;
+  padding: 10px;
+  }
+
+.container mt-5{
+    width: 100%;
+}
+
+ 
+
+
+  /* Estilos para el footer */
+  
+
+.footer {
+
+    background-color: #7da7b8;
+}
+
+  
+  
+  
+  /* Estilos para los iconos de redes sociales */
+  
+  .fa-whatsapp, .fa-facebook, .fa-instagram, .fa-twitter {
+    color: white;
+    transition: all 0.2s ease-in-out;
+  }
+  .fa-whatsapp:hover, .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover {
+    color: #25d366;
+  }

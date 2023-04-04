@@ -1,0 +1,1 @@
+alert('Recibimos su mensaje. Nos comunicaremos a la brevedad.');
